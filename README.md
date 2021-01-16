@@ -1,0 +1,1 @@
+# hackintosh-opencore-gigabyte-z390-pro-wifi
