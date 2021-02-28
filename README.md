@@ -1,13 +1,5 @@
 # hackintosh-opencore-gigabyte-z390-pro-wifi
 
->
-> OpenCore 0.6.6
-> 
-> OpenCore COnfigurator Version 2.23.0.0
->
-
-![System Info](images/01.png)![System Info](images/02.png)
-![System Info](images/03.png)
 
 ```
 macOS Big Sur
@@ -32,3 +24,30 @@ iMac (Retina 5K, 27-inch, 2019)
 |  WiFi + Bluetooth 	| BCM94360CD                    	|   	|
 |    Power Supply   	| USCORSAIR RM650X              	|   	|
 |        Case       	| Jonsbo UMX4                   	|   	|
+
+
+### Tools
+1. OpenCore v0.6.6
+2. OpenCore Configurator v2.28.0.0
+3. MaciASL v1.5.9
+4. Hackintool v3.5.3(0353)
+
+
+### Question
+#### fix macOS Big Sur Parallels Desktop15 run error
+```shell
+$ SYSTEM_VERSION_COMPAT=1 open -a "Parallels Desktop"
+```
+
+### MV
+1. https://www.bilibili.com/video/BV1gi4y1x7qn?from=search&seid=7551406859784762848
+2. https://www.bilibili.com/read/cv4288590/
+3. https://blog.zuiyu1818.cn/posts/z390_NVRAM.html
+
+### config
+![System Info](images/01.png)![System Info](images/02.png)
+![System Info](images/03.png)
+
+#### graphics_config
+![graphics_config](images/graphics_config.png)
+
